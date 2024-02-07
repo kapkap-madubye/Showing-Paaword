@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(60, 60, 131);
+
+}
+body:hover{
+    background-color:rgb(53, 53, 66);
+
+}
+
+.main{
+    width:35%;
+    position:absolute;
+    min-width:450px;
+    min-height:100px;
+    transform:transalte(-50%,50%);
+    background-color:white;
+    top:40%;
+    left:30%;
+    border-radius:15px;
+
+}
+.frame{
+    position:relative;
+    padding:40px 110px;
+}
+#input{
+    background-color:rgb(196, 181, 181);
+    border:none;
+    height: 20px;
+    border-radius:4px;
+    width:190px;
+    outline:none;
+
+}
+
+#btn{
+    background:blue;
+    color:white;
+    border:none;
+    height:21px;
+    border-radius:4px;
+    width:50px;
+}
